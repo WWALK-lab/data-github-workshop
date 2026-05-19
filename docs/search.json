@@ -161,6 +161,13 @@
     "text": "Pulling (Collaboration Station)\n\nIf you are collaborating on a project, where multiple people are contributing, make sure you pull from the remote repository before starting your work\nSame button as push (ctrl + shift + P)"
   },
   {
+    "objectID": "index.html#bonus-ignoring",
+    "href": "index.html#bonus-ignoring",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Bonus: Ignoring",
+    "text": "Bonus: Ignoring\n\nthe .gitignore file in your project directory allows you to force git to ignore specific files or folders\nthere is a syntax for specifying different file types or folders, which can be found in the link above\n\n# Ignore all .txt files\n*.txt\n\n# But don't ignore important.txt\n!important.txt\n\n# Ignore all files in large directory\nlarge/*"
+  },
+  {
     "objectID": "index.html#lab-archiving",
     "href": "index.html#lab-archiving",
     "title": "WWALK’s Data & GitHub Crash Course",
