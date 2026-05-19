@@ -14,6 +14,13 @@
     "text": "GitHub Caveats\n\nMicrosoft is a deeply evil company that profits from the war machine and the destruction of our planet\nGitHub is a Microsoft company\nThere aren’t currently a lot of alternatives, but there will be eventually and you can check out this list if you’re interested"
   },
   {
+    "objectID": "index.html#privacy-caveats",
+    "href": "index.html#privacy-caveats",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Privacy Caveats!!!",
+    "text": "Privacy Caveats!!!\n\nThis lab has many examples of data that should not be uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools\nWe need to be extremely mindful, make sure our code is anonymized\nUpload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable"
+  },
+  {
     "objectID": "index.html#software-installation",
     "href": "index.html#software-installation",
     "title": "WWALK’s Data & GitHub Crash Course",
@@ -158,7 +165,7 @@
     "href": "index.html#lab-archiving",
     "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Lab Archiving",
-    "text": "Lab Archiving\nArchiving your project in the lab requires 4 things:\n\nPaper/thesis\nClean data\nMetadata\nCode\n(Bonus: presentations you have given)\n\nThese things can be organized however you’d like, as long as they are easily understood by someone after you are gone.\nWhere your completed project goes in the lab is a work in progress, I will update you as I work on this!"
+    "text": "Lab Archiving\nArchiving your project in the lab requires 4 things:\n\nPaper/thesis\nClean data\nMetadata\nCode\n(Bonus: presentations you have given)\n\nThese things can be organized however you’d like, as long as they are easily understood by someone after you are gone."
   },
   {
     "objectID": "index.html#why-using-git-is-not-archiving",
@@ -187,13 +194,6 @@
     "title": "WWALK’s Data & GitHub Crash Course",
     "section": "The Ultimate Combo Deal",
     "text": "The Ultimate Combo Deal"
-  },
-  {
-    "objectID": "index.html#privacy",
-    "href": "index.html#privacy",
-    "title": "WWALK’s Data & GitHub Crash Course",
-    "section": "Privacy!!!",
-    "text": "Privacy!!!\n\nThis lab has many examples of data that should not be uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools\nWe need to be extremely mindful, make sure our code is anonymized\nUpload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable"
   },
   {
     "objectID": "index.html#resources",
