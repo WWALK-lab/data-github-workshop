@@ -1,7 +1,6 @@
 ---
-title: "ZULE's Data & GitHub Crash Course"
-author: "Isabella Richmond & Kayleigh Hutt-Taylor"
-date: January 30, 2024
+title: "WWALK's Data & GitHub Crash Course"
+date: May 19, 2026
 format: 
   revealjs:
     theme: dark
@@ -21,23 +20,24 @@ My goal for this workshop is to give everyone the tools to:
 -   Know one approach to publicly archiving projects
 :::
 
-## 
 
-![](presentation_imgs/righttool.PNG){fig-align="center"}
+## GitHub Caveats
 
-::: aside
-https://sciencecomputing.io/
-:::
+-   Microsoft is a deeply evil company that profits from the war machine and the destruction of our planet
+-   GitHub is a Microsoft company
+-   There aren't currently a lot of alternatives, but there will be eventually and you can check out [this list](https://itsfoss.com/github-alternatives/) if you're interested 
+
+
+## Privacy Caveats!!! 
+
+-   This lab has many examples of data that should not be uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools
+-   We need to be extremely mindful, make sure our code is anonymized
+-   Upload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable 
+
 
 ## Software Installation
 
 -   **CHECK-IN: does everyone have everything working/installed?**
--   Absolutely the hardest part of this workshop
--   Thank you for doing homework!!
-
-. . .
-
--   If you have technical issues throughout this presentation - raise your hand and we will either work through together or Kayleigh will help you troubleshoot
 
 ## Transparent Workflows
 
@@ -45,7 +45,7 @@ https://sciencecomputing.io/
 
     -   Past/Current/Future You
 
-    -   ZULE Lab
+    -   WWALK Lab
 
     -   Collaborators
 
@@ -86,19 +86,7 @@ Best practices include (but are not limited to) [^2]
 
 ## Cleaning Data in R
 
--   Reproducible [^3]
--   Open-source and cross-platform
--   Reliable & clear
--   High-quality graphics
--   Great community & resources
--   Scales with datasets
--   Steep learning curve with a high payoff
-
-[^3]: [Data Carpentry Data Analysis & Visualiation in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html)
-
-## Cleaning Data in R
-
-There are some tasks that do not need to be "as reproducible" (e.g., fixing typos) - these can be done in OpenRefine.
+There are some tasks that do not need to be "as reproducible" (e.g., fixing typos) - these can be done in [OpenRefine](https://openrefine.org/).
 
 In general if you are:
 
@@ -112,30 +100,26 @@ In general if you are:
 
 Do this in R (you will be grateful later!)
 
-## ["Tidy" (or clean) Data](https://www.jstatsoft.org/article/view/v059i10):
-
--   Framework for how data should be formatted for easy and efficient data cleaning created by [Hadley Wickham](http://hadley.nz/)
-    -   Underpinnings of `tidyverse` packages (e.g. ggplot2)
-
-Principles:
-
-1.  Each variable forms a column
-2.  Each observation forms a row
-3.  Each type of observational unit forms a table
-
 ## Basic File Structure
 
-![](presentation_imgs/filestructure.png)
+```         
+project
+└───raw-data/
+└───output/
+└───R/
+└───graphics/
+└───README.md
+```
 
-## Let's Make a Project
+## Exercise: make a project
 
--   Let's set up a new project, using RProjects
+-   Let's set up a new project using RStudio Projects
 
--   Add input, output, script, and figure folders
+-   Add raw-data, output, R, and graphics folders
 
--   (I recommend you have a place on your computer dedicated to this)
+-   (Bonus: I recommend you have a folder on your computer dedicated to all R projects)
 
-# Part II: GitHub
+# Part III: GitHub
 
 ## GitHub & Version Control
 
@@ -152,7 +136,7 @@ Principles:
 
 -   Really useful for when you want to go back/change your mind/re-run a test/etc.
 
--   Facilitates peace of mind + reproducible science + collaboration/sharing
+-   Facilitates lower mental load + reproducible science + collaboration/sharing
 :::
 
 ## Project Workflow with Git
@@ -174,23 +158,19 @@ Principles:
     -   (BONUS branch: a side project)
 -   *We will do all these things today!*
 
-## Let's Make a Repository!
+## Exercise: make a repo!
 
-[github.com](www.github.com)
+[github.com/repos](www.github.com/repos)
 
 ![](presentation_imgs/newrepo.png){fig-align="center"}
 
-## Let's Make a Repository!
+## Exercise: make a repo!
+![](presentation_imgs/newrepo2.png){fig-align="center"}
 
-::: {layout-ncol="2"}
-![](presentation_imgs/newrepo2.png)
+## Exercise: make a repo!
 
-[ZULE's GitHub](https://github.com/zule-lab) has lots of repositories (including examples) if you are looking for inspiration for folder organization, ReadMe documentation, metadata, etc.
-:::
-
-## Let's Make a Repository!
-
-![](presentation_imgs/newrepo3.png)
+[github.com/icrichmond/github-workshop](github.com/icrichmond/github-workshop)
+![](presentation_imgs/newrepo3.png){fig-align="center"}
 
 ## Cloning (Download An Existing Directory)
 
@@ -232,10 +212,10 @@ Archiving your project in the lab requires 4 things:
 2.  Clean data
 3.  Metadata
 4.  Code
+5.  (Bonus: presentations you have given)
 
 These things can be organized however you'd like, as long as they are easily understood by someone after you are gone.
 
-Projects need to be added to the lab computer, under the D: drive, in the Lab_Alumni folder
 
 ## Why Using Git is not Archiving
 
@@ -277,7 +257,7 @@ NOTE: you do not need to use Git to use Zenodo, you can also upload local files
 
 ## The Ultimate Combo Deal {.scrollable}
 
-::: columns
+::::: columns
 ::: column
 ![](presentation_imgs/gitrepo.png)
 :::
@@ -285,11 +265,12 @@ NOTE: you do not need to use Git to use Zenodo, you can also upload local files
 ::: column
 ![](presentation_imgs/zenodorepo.png)
 :::
-:::
+:::::
+
 
 ## Resources
 
-**This workshop - including examples & code can all be found [here](https://github.com/zule-lab/data-github-workshop) and formatted slides are [here](https://zule-lab.github.io/data-github-workshop)**
+**This workshop - including examples & code can all be found [here](https://github.com/wwalk-lab/data-github-workshop) and formatted slides are [here](https://wwalk-lab.github.io/data-github-workshop)**
 
 Software Carpentry: [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/) & [Version Control with git](https://swcarpentry.github.io/git-novice/)
 
@@ -304,5 +285,3 @@ University of Bergen: [Open Access to Research Data](https://www.uib.no/en/ub/11
 ## Resources
 
 Smart People I Know: [Dr. Christie Bahlai's Reproducible Quantitative Methods Course](https://cbahlai.github.io/rqm-template/) & [Wildlife Ecology & Evolution Lab's Guide by Alec Robitaille](https://weel.gitlab.io/guide/) & [Val Lucet's Git Workshop](https://vlucet.github.io/git-and-github-with-r-workshop/)
-
-**PLUS: check out our zup "stats" thread - lots of helpful resources! AND ASK YOUR LABMATES!!!!**

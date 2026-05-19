@@ -2,218 +2,211 @@
   {
     "objectID": "index.html#learning-goals",
     "href": "index.html#learning-goals",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Learning Goals",
-    "text": "Learning Goals\nMy goal for this workshop is to give everyone the tools to:\n\n\nConfidently start a project in R\nManage files in a way that is reproducible and easy to understand\nAllow people to document history/progress on their projects\nKnow one approach to publicly archiving projects"
+    "text": "Learning Goals\nMy goal for this workshop is to give everyone the tools to:\n\nConfidently start a project in R\nManage files in a way that is reproducible and easy to understand\nAllow people to document history/progress on their projects\nKnow one approach to publicly archiving projects"
   },
   {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "",
-    "text": "https://sciencecomputing.io/"
+    "objectID": "index.html#github-caveats",
+    "href": "index.html#github-caveats",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "GitHub Caveats",
+    "text": "GitHub Caveats\n\nMicrosoft is a deeply evil company that profits from the war machine and the destruction of our planet\nGitHub is a Microsoft company\nThere aren’t currently a lot of alternatives, but there will be eventually and you can check out this list if you’re interested"
   },
   {
     "objectID": "index.html#software-installation",
     "href": "index.html#software-installation",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Software Installation",
-    "text": "Software Installation\n\nCHECK-IN: does everyone have everything working/installed?\nAbsolutely the hardest part of this workshop\nThank you for doing homework!!\n\n\n\nIf you have technical issues throughout this presentation - raise your hand and we will either work through together or Kayleigh will help you troubleshoot"
+    "text": "Software Installation\n\nCHECK-IN: does everyone have everything working/installed?"
   },
   {
     "objectID": "index.html#transparent-workflows",
     "href": "index.html#transparent-workflows",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Transparent Workflows",
-    "text": "Transparent Workflows\n\nEnsuring that your workflow is transparent is important for:\n\nPast/Current/Future You\nZULE Lab\nCollaborators\nOther grad students\nScientific Community\nPUBLIC"
+    "text": "Transparent Workflows\n\nEnsuring that your workflow is transparent is important for:\n\nPast/Current/Future You\nWWALK Lab\nCollaborators\nOther grad students\nScientific Community\nPUBLIC"
   },
   {
     "objectID": "index.html#project-management-in-r",
     "href": "index.html#project-management-in-r",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Project Management in R",
-    "text": "Project Management in R\nGood file structure is important because it 1\n\n\nEnsures the integrity of your data\nMakes it easier to share your code with people\nMakes it easier to upload your code/data with manuscript submission\nMakes it easier to come back after a break\n\n\nSoftware Carpentry Project Management"
+    "text": "Project Management in R\nGood file structure is important because it 1\n\nEnsures the integrity of your data\nMakes it easier to share your code with people\nMakes it easier to upload your code/data with manuscript submission\nMakes it easier to come back after a break\n\nSoftware Carpentry Project Management"
   },
   {
     "objectID": "index.html#file-management-for-r",
     "href": "index.html#file-management-for-r",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "File Management for R",
-    "text": "File Management for R\nBest practices include (but are not limited to) 1\n\n\nUse an R Project file so that your project is easily shareable\nAlways treat raw data as read-only\nStore cleaned data in a separate folder (or distinguish clearly)\nTreat output as disposable - you should always be able to re-generate with script\nHave separate function and figure scripts\n\n\nSoftware Carpentry Project Management"
+    "text": "File Management for R\nBest practices include (but are not limited to) 1\n\nUse an R Project file so that your project is easily shareable\nAlways treat raw data as read-only\nStore cleaned data in a separate folder (or distinguish clearly)\nTreat output as disposable - you should always be able to re-generate with script\nHave separate function and figure scripts\n\nSoftware Carpentry Project Management"
   },
   {
     "objectID": "index.html#cleaning-data-in-r",
     "href": "index.html#cleaning-data-in-r",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "Cleaning Data in R",
-    "text": "Cleaning Data in R\n\nReproducible 1\nOpen-source and cross-platform\nReliable & clear\nHigh-quality graphics\nGreat community & resources\nScales with datasets\nSteep learning curve with a high payoff\n\nData Carpentry Data Analysis & Visualiation in R for Ecologists"
-  },
-  {
-    "objectID": "index.html#cleaning-data-in-r-1",
-    "href": "index.html#cleaning-data-in-r-1",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Cleaning Data in R",
     "text": "Cleaning Data in R\nThere are some tasks that do not need to be “as reproducible” (e.g., fixing typos) - these can be done in OpenRefine.\nIn general if you are:\n\nCombining data sources\nMaking decisions about the data itself (e.g., removing or adding data)\nPerforming calculations\nRenaming things\n\nDo this in R (you will be grateful later!)"
   },
   {
-    "objectID": "index.html#tidy-or-clean-data",
-    "href": "index.html#tidy-or-clean-data",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "“Tidy” (or clean) Data:",
-    "text": "“Tidy” (or clean) Data:\n\nFramework for how data should be formatted for easy and efficient data cleaning created by Hadley Wickham\n\nUnderpinnings of tidyverse packages (e.g. ggplot2)\n\n\nPrinciples:\n\nEach variable forms a column\nEach observation forms a row\nEach type of observational unit forms a table"
-  },
-  {
     "objectID": "index.html#basic-file-structure",
     "href": "index.html#basic-file-structure",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Basic File Structure",
-    "text": "Basic File Structure"
+    "text": "Basic File Structure\nproject\n└───raw-data/\n└───output/\n└───R/\n└───graphics/\n└───README.md"
   },
   {
-    "objectID": "index.html#lets-make-a-project",
-    "href": "index.html#lets-make-a-project",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "Let’s Make a Project",
-    "text": "Let’s Make a Project\n\nLet’s set up a new project, using RProjects\nAdd input, output, script, and figure folders\n(I recommend you have a place on your computer dedicated to this)"
+    "objectID": "index.html#exercise-make-a-project",
+    "href": "index.html#exercise-make-a-project",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Exercise: make a project",
+    "text": "Exercise: make a project\n\nLet’s set up a new project using RStudio Projects\nAdd raw-data, output, R, and graphics folders\n(Bonus: I recommend you have a folder on your computer dedicated to all R projects)"
   },
   {
     "objectID": "index.html#github-version-control",
     "href": "index.html#github-version-control",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "GitHub & Version Control",
     "text": "GitHub & Version Control\n\nPiled Higher and Deeper"
   },
   {
     "objectID": "index.html#github-version-control-1",
     "href": "index.html#github-version-control-1",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "GitHub & Version Control",
-    "text": "GitHub & Version Control\n\n\nGitHub is a website-software that documents your progress on a project and allows you to do version control\n\naka it takes snapshots of your progress across time so nothing gets lost\n\nIf you save rough drafts of your writing as you go along - that is version control\nReally useful for when you want to go back/change your mind/re-run a test/etc.\nFacilitates peace of mind + reproducible science + collaboration/sharing"
+    "text": "GitHub & Version Control\n\nGitHub is a website-software that documents your progress on a project and allows you to do version control\n\naka it takes snapshots of your progress across time so nothing gets lost\n\nIf you save rough drafts of your writing as you go along - that is version control\nReally useful for when you want to go back/change your mind/re-run a test/etc.\nFacilitates lower mental load + reproducible science + collaboration/sharing"
   },
   {
     "objectID": "index.html#project-workflow-with-git",
     "href": "index.html#project-workflow-with-git",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Project Workflow with Git",
     "text": "Project Workflow with Git\n\nbiost@ts Git Tutorial"
   },
   {
     "objectID": "index.html#project-workflow-with-git-others",
     "href": "index.html#project-workflow-with-git-others",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Project Workflow with Git + Others",
     "text": "Project Workflow with Git + Others\n\nbiost@ts Git Tutorial"
   },
   {
     "objectID": "index.html#the-basics-of-github",
     "href": "index.html#the-basics-of-github",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "The Basics of GitHub",
     "text": "The Basics of GitHub\n\n5 basic jargon terms you need to know to use GitHub:\n\nRepository/repo: your project\nClone: make a local copy of your project\nCommit: describe and commit to any changes you’ve made\nPush: send your changes to your online repo\nPull: incorporate any changes to your local repo\n(BONUS branch: a side project)\n\nWe will do all these things today!"
   },
   {
-    "objectID": "index.html#lets-make-a-repository",
-    "href": "index.html#lets-make-a-repository",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "Let’s Make a Repository!",
-    "text": "Let’s Make a Repository!\ngithub.com"
+    "objectID": "index.html#exercise-make-a-repo",
+    "href": "index.html#exercise-make-a-repo",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Exercise: make a repo!",
+    "text": "Exercise: make a repo!\ngithub.com/repos"
   },
   {
-    "objectID": "index.html#lets-make-a-repository-1",
-    "href": "index.html#lets-make-a-repository-1",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "Let’s Make a Repository!",
-    "text": "Let’s Make a Repository!\n\n\n\n\n\n\nZULE’s GitHub has lots of repositories (including examples) if you are looking for inspiration for folder organization, ReadMe documentation, metadata, etc."
+    "objectID": "index.html#exercise-make-a-repo-1",
+    "href": "index.html#exercise-make-a-repo-1",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Exercise: make a repo!",
+    "text": "Exercise: make a repo!"
   },
   {
-    "objectID": "index.html#lets-make-a-repository-2",
-    "href": "index.html#lets-make-a-repository-2",
-    "title": "ZULE’s Data & GitHub Crash Course",
-    "section": "Let’s Make a Repository!",
-    "text": "Let’s Make a Repository!"
+    "objectID": "index.html#exercise-make-a-repo-2",
+    "href": "index.html#exercise-make-a-repo-2",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Exercise: make a repo!",
+    "text": "Exercise: make a repo!\ngithub.com/icrichmond/github-workshop"
   },
   {
     "objectID": "index.html#cloning-download-an-existing-directory",
     "href": "index.html#cloning-download-an-existing-directory",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Cloning (Download An Existing Directory)",
     "text": "Cloning (Download An Existing Directory)"
   },
   {
     "objectID": "index.html#committing",
     "href": "index.html#committing",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Committing",
     "text": "Committing\n\nGitHub tracks the changes you make to your repository on your computer\nAfter making changes, you have to select, describe, and commit them"
   },
   {
     "objectID": "index.html#committing-1",
     "href": "index.html#committing-1",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Committing",
     "text": "Committing"
   },
   {
     "objectID": "index.html#pushing",
     "href": "index.html#pushing",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Pushing",
     "text": "Pushing\nAfter committing, you push your changes to your remote repository"
   },
   {
     "objectID": "index.html#pulling-collaboration-station",
     "href": "index.html#pulling-collaboration-station",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Pulling (Collaboration Station)",
     "text": "Pulling (Collaboration Station)\n\nIf you are collaborating on a project, where multiple people are contributing, make sure you pull from the remote repository before starting your work\nSame button as push (ctrl + shift + P)"
   },
   {
     "objectID": "index.html#lab-archiving",
     "href": "index.html#lab-archiving",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Lab Archiving",
-    "text": "Lab Archiving\nArchiving your project in the lab requires 4 things:\n\nPaper/thesis\nClean data\nMetadata\nCode\n\nThese things can be organized however you’d like, as long as they are easily understood by someone after you are gone.\nProjects need to be added to the lab computer, under the D: drive, in the Lab_Alumni folder"
+    "text": "Lab Archiving\nArchiving your project in the lab requires 4 things:\n\nPaper/thesis\nClean data\nMetadata\nCode\n(Bonus: presentations you have given)\n\nThese things can be organized however you’d like, as long as they are easily understood by someone after you are gone.\nWhere your completed project goes in the lab is a work in progress, I will update you as I work on this!"
   },
   {
     "objectID": "index.html#why-using-git-is-not-archiving",
     "href": "index.html#why-using-git-is-not-archiving",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Why Using Git is not Archiving",
     "text": "Why Using Git is not Archiving\n\nDoes not have a DOI, so does not point to a specific moment in time\nCan be changed continuously\nNot dedicated to longevity\nCan import GitHub repository to a true data archive"
   },
   {
     "objectID": "index.html#public-archiving",
     "href": "index.html#public-archiving",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Public Archiving",
     "text": "Public Archiving\n\nZenodo is a great option for archiving data\n\nEasily links to GitHub repositories\nPreserves file structures\nCan be updated after reviews/changes with a new DOI\nFREE\n\nOther options include Dryad, figshare, and more topic-specific archives (e.g., GenBank)\nAs always, use what works for you"
   },
   {
     "objectID": "index.html#zenodo",
     "href": "index.html#zenodo",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Zenodo",
     "text": "Zenodo\nTo connect and archive your code/data with Zenodo from GitHub, there are three main steps\n\nLink your GitHub to your Zenodo account, and toggle “On” for your repository\nMake a release of the project on GitHub\nObtain DOI and project page from Zenodo\n\n(see an example workthrough here)\nNOTE: you do not need to use Git to use Zenodo, you can also upload local files"
   },
   {
     "objectID": "index.html#the-ultimate-combo-deal",
     "href": "index.html#the-ultimate-combo-deal",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "The Ultimate Combo Deal",
     "text": "The Ultimate Combo Deal"
   },
   {
+    "objectID": "index.html#privacy",
+    "href": "index.html#privacy",
+    "title": "WWALK’s Data & GitHub Crash Course",
+    "section": "Privacy!!!",
+    "text": "Privacy!!!\n\nThis lab has many examples of data that should not be uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools\nWe need to be extremely mindful, make sure our code is anonymized\nUpload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable"
+  },
+  {
     "objectID": "index.html#resources",
     "href": "index.html#resources",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Resources",
     "text": "Resources\nThis workshop - including examples & code can all be found here and formatted slides are here\nSoftware Carpentry: R for Reproducible Scientific Analysis & Version Control with git\nData Carpentry: Data Analysis & Visualization in R for Ecologists & Data Organization in Spreadsheets for Ecologists\nbiost@ts: Version Control with Git and GitHub\nHappy Git: happygitwithr\nUniversity of Bergen: Open Access to Research Data"
   },
   {
     "objectID": "index.html#resources-1",
     "href": "index.html#resources-1",
-    "title": "ZULE’s Data & GitHub Crash Course",
+    "title": "WWALK’s Data & GitHub Crash Course",
     "section": "Resources",
-    "text": "Resources\nSmart People I Know: Dr. Christie Bahlai’s Reproducible Quantitative Methods Course & Wildlife Ecology & Evolution Lab’s Guide by Alec Robitaille & Val Lucet’s Git Workshop\nPLUS: check out our zup “stats” thread - lots of helpful resources! AND ASK YOUR LABMATES!!!!"
+    "text": "Resources\nSmart People I Know: Dr. Christie Bahlai’s Reproducible Quantitative Methods Course & Wildlife Ecology & Evolution Lab’s Guide by Alec Robitaille & Val Lucet’s Git Workshop"
   }
 ]
