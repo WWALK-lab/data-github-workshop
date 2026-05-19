@@ -20,20 +20,17 @@ My goal for this workshop is to give everyone the tools to:
 -   Know one approach to publicly archiving projects
 :::
 
-
 ## GitHub Caveats
 
 -   Microsoft is a deeply evil company that profits from the war machine and the destruction of our planet
 -   GitHub is a Microsoft company
--   There aren't currently a lot of alternatives, but there will be eventually and you can check out [this list](https://itsfoss.com/github-alternatives/) if you're interested 
+-   There aren't currently a lot of alternatives, but there will be eventually and you can check out [this list](https://itsfoss.com/github-alternatives/) if you're interested
 
-
-## Privacy Caveats!!! 
+## Privacy Caveats!!!
 
 -   This lab has many examples of data that should not be uploaded to the internet, that does not mean that we can not use GitHub/Zenodo/reproducible science tools
 -   We need to be extremely mindful, make sure our code is anonymized
--   Upload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable 
-
+-   Upload fake example data so that users can understand how our code works, with clear metadata that explains that the real data is unavailable
 
 ## Software Installation
 
@@ -165,12 +162,12 @@ project
 ![](presentation_imgs/newrepo.png){fig-align="center"}
 
 ## Exercise: make a repo!
+
 ![](presentation_imgs/newrepo2.png){fig-align="center"}
 
 ## Exercise: make a repo!
 
-[github.com/icrichmond/github-workshop](github.com/icrichmond/github-workshop)
-![](presentation_imgs/newrepo3.png){fig-align="center"}
+[github.com/icrichmond/github-workshop](github.com/icrichmond/github-workshop) ![](presentation_imgs/newrepo3.png){fig-align="center"}
 
 ## Cloning (Download An Existing Directory)
 
@@ -202,6 +199,23 @@ After committing, you push your changes to your remote repository
 
 -   Same button as push (ctrl + shift + P)
 
+## Bonus: Ignoring 
+
+-   the [.gitignore file](https://git-scm.com/docs/gitignore) in your project directory allows you to force git to ignore specific files or folders
+
+-   there is a syntax for specifying different file types or folders, which can be found in the link above
+
+```
+# Ignore all .txt files
+*.txt
+
+# But don't ignore important.txt
+!important.txt
+
+# Ignore all files in large directory
+large/*
+```
+
 # Part IV: Archiving Data
 
 ## Lab Archiving
@@ -215,7 +229,6 @@ Archiving your project in the lab requires 4 things:
 5.  (Bonus: presentations you have given)
 
 These things can be organized however you'd like, as long as they are easily understood by someone after you are gone.
-
 
 ## Why Using Git is not Archiving
 
@@ -266,7 +279,6 @@ NOTE: you do not need to use Git to use Zenodo, you can also upload local files
 ![](presentation_imgs/zenodorepo.png)
 :::
 :::::
-
 
 ## Resources
 
